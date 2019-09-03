@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>My Portfolio</title>
+
+<!-- BootStrap mobile view-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="css/superslides.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css"> <!--linking css file in same folder as css-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <!--link of css style-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+
+
+<body>
+
+<!--Loader-->
+  <div class="loader">
+		<div class="inner"></div>
+	</div>
+
+
+  <!--slide container-->
+
+  <div id="slides">
+    <div class="overlay"> </div>
+
+    <div class="slides-container">
+      <img src="images/slide1.jpg" alt="">
+      <img src="images/slide2.jpg" alt="">
+      <img src="images/slide3.jpg" alt="">
+    </div>
+
+    <div class="titleMessage">
+      <div class="heading">
+        <p class="name" >Prajwal Shiggavi</p>
+        <p class="sub typed"></p>
+        <!--<p class="sub1">Web developer</p>-->
+      </div>
+    </div>
+
+    <!--slide next and Previous thrugh nicinabox github-->
+    <nav class="slides-navigation">
+      <a href="#" class="next"></a>
+      <a href="#" class="prev"></a>
+    </nav>
+</div>
+
+        <nav id="navigation" class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">Prajwal Shiggavi</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#about">about <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#stats">Stats</a>
+              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portpolio">Portpolio</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+
+
+  <!-- BootStrap grid-->
+  <div id="about" class="section">
+
+    <div class="container"> <!--bootstrap class is container-->
+      <div class="row">
+
+        <div class="col-md-5">
+          <img class="aboutImage" src="images/prajwal.jpg" alt="Prajwal">
+        </div>
+
+        <div class="col-md-7">
+          <h4>My name is Prajwal Shiggavi</h4>
+          <p>Hi, I am Prajwal Shiggavi from Belagavi,Karnataka.
+            I worked as a Computer Engineer at L&T technology Services.
+            I have 2 years experience as Helpdesk and recently i joined
+            5square technolgy training center for studying Web Development Courses,
+            And i have good knowledge in HTML,CSS,JavaScript,Jquery and BootStrap.
+          </p>
+          <p>I graduted From Rani Channamma Univesity in Belagavi, Karnataka(62%)
+            in Computer Science</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="skills" class="skillsSection section">
+
+      <div class="container"> <!--bootstrap class is container-->
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2> TECHNICAL SKILLS</h2>
+            <p>A representation of my proficiency in each skill</p>
+          </div>
+
+
+          <div class="owl-carousel owl-theme">
+
+
+            <div class="skill">
+              <span class="chart" data-percent="85">
+                <span class="percent">85</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>HTML</h4>
+              <p>Used in web pages</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="75">
+                <span class="percent">75</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>CSS</h4>
+              <p>Used in web pages</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="70">
+                <span class="percent">70</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>BootStrap</h4>
+              <p>Used in web pages</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="70">
+                <span class="percent">70</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>JavaScript</h4>
+              <p>Used in web pages</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--section of 2-->
+
+    <div id="stats" class="statsSection section">
+
+      <div class="container"> <!--bootstrap grid classes is container-->
+        <div class="row">
+
+          <div class="col-md-3 col-sm-6">
+
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+
+                <div class="squareIcon">
+                  <i class="fa fa-archive"></i>
+                </div>
+                <div class="squareContent">
+                  <h2>2</h2>
+                  <h3>Years experience</h3>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+
+                <div class="squareIcon">
+                  <i class="fa fa-check-square"></i>
+                </div>
+                <div class="squareContent">
+                  <h2>5</h2>
+                  <h3>Projects</h3>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+
+                <div class="squareIcon">
+                  <i class="fa fa-eye"></i>  <!-- <i class="fa fa-archive"></i>-->
+                </div>
+                <div class="squareContent">
+                  <h2>15</h2>
+                  <h3>Clients</h3>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+
+                <div class="squareIcon">
+                  <i class="fa fa-book"></i>
+                </div>
+
+                <div class="squareContent">
+                  <h2>5</h2>
+                  <h3>Website made</h3>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Contact section-->
+
+    <div id="contact" class="contactSection section">
+      <div class="col-md-12 text-center">
+        <p class="subHeading">Like what you see?</p>
+        <h2>I'd love to hear from you!</h2>
+        <a href="mailTo: prajwalshiggavi110@gmail.com" class="contactButton">GET IN TOUCH</a>
+
+      </div>
+    </div>
+
+
+
+    <!--portpolio section and heading-->
+    <div id="portpolio" class="section">
+      <div class="container"> <!--bootstrap class is container-->
+        <div class="row">
+          <div class="heading">
+            <h2>PORTPOLIO</h2>
+          </div>
+
+          <div class="filter">
+            <ul id="filters">
+              <li><a href="#" data-filter="*" class="current">ALL</a></li>  <!--(data-filter)communication isotope plugin-->
+              <li><a href="#" data-filter=".apps">APPS</a></li>
+              <li><a href="#" data-filter=".me">ME</a></li>
+              <li><a href="#" data-filter=".websites">WEBSITES</a></li>
+            </ul>
+          </div>
+
+
+
+          <div class="item container">
+            <ul class="items">
+              <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="images/portfolio/thumbnails/workstation2.jpg" alt="dog-square">
+
+                  <div class="icons">
+                    <a href="images/portfolio/workstation.jpg" title="View image" class="openButton" data-fancyBox data-caption="This is a cute Dog">
+                      <i class="fa fa-search"></i>
+                    </a>
+
+
+                    <!--open next tab(target)-->
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+
+                </div>
+              </li>
+
+              <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="images/portfolio/thumbnails/3.2.jpg" alt="dog-square">
+
+                  <div class="icons">
+                    <a href="images/portfolio/3.1.jpg" title="View image" class="openButton" data-fancyBox data-caption="This is a cute Dog">
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <!--open next tab(target)-->
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+
+                </div>
+              </li>
+
+
+              <li onclick="" class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="images/portfolio/thumbnails/prajwal.jpg" alt="dog-square">
+
+                  <div class="icons">
+                    <a href="images/portfolio/praj.jpg" title="View image" class="openButton" data-fancyBox data-caption="This is a cute Dog">
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <!--open next tab(target)-->
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+
+                </div>
+              </li>
+
+
+              <li onclick="" class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="images/portfolio/thumbnails/2.2.jpg" alt="dog-square">
+
+                  <div class="icons">
+                    <a href="images/portfolio/2.1.jpg" title="View image" class="openButton" data-fancyBox data-caption="This is a cute Dog">
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <!--open next tab(target)-->
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+
+                </div>
+              </li>
+
+
+              <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="images/portfolio/thumbnails/comp.jpg" alt="dog-square">
+
+                  <div class="icons">
+                    <a href="images/portfolio/com-pen.jpg" title="View image" class="openButton" data-fancyBox data-caption="This is a cute Dog">
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <!--open next tab(target)-->
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+
+                </div>
+              </li>
+
+              <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="images/portfolio/thumbnails/web-design2.jpg" alt="dog-square">
+
+                  <div class="icons">
+                    <a href="images/portfolio/web-design.jpg" title="View image" class="openButton" data-fancyBox data-caption="This is a cute Dog">
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <!--open next tab(target)-->
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+
+                </div>
+              </li>
+
+              <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="images/portfolio/thumbnails/tree2.jpg" alt="dog-square">
+
+                  <div class="icons">
+                    <a href="images/portfolio/tree.jpeg" title="View image" class="openButton" data-fancyBox data-caption="This is a cute Dog">
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <!--open next tab(target)-->
+                    <a href="http://reecekenney.com" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+
+                </div>
+              </li>
+
+
+                            <li onclick="" onclick="" class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                              <div class="item">
+                                <img src="images/portfolio/thumbnails/4.2.jpg" alt="">
+
+                                <div class="icons">
+                                  <a href="images/portfolio/4.1.jpg" title="View image" class="openButton" data-fancyBox data-caption="This is a cute Dog">
+                                    <i class="fa fa-search"></i>
+                                  </a>
+
+                                  <!--open next tab(target)-->
+                                  <a href="" target="_blank" class="projectLink">
+                                    <i class="fa fa-link"></i>
+                                  </a>
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+                              </div>
+                            </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--copyright section-->
+    <div class="copyrightSection">
+
+		<div class="col-md-12 text-center">
+			<p>&copy; Copyright Prajwal Shiggavi 2019</p>
+		</div>
+
+	</div>
+
+
+
+    <!--linking js-->
+    <script src="js/jquery.superslides.min.js"></script>
+    <!-- linking js as slide throgh git hub-->
+    <script src="js/typed.min.js"></script>
+    <!--linking js file in owl carousel.min-->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script src="js/jquery.easypiechart.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <!--linking js trough bootstrap-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--isotope specify-->
+    <script type="text/javascript" src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <!--fancybox-->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <!--linking script.js-->
+    <script src="js/script.js"></script>
+  </body>
+  </html>
